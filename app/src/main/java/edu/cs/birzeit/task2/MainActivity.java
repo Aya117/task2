@@ -22,7 +22,7 @@ private EditText edtPassword;
         String name=edtName.getText().toString();
         String pass=edtPassword.getText().toString();
         String msg= "name :" + name + ", pass: "+ pass;
-        Toast.makeText(this, "msg", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
 
     }
 }
